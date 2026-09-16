@@ -1,0 +1,6 @@
+product,produced_kg_per_year,sold_kg_per_year,unsold_kg_per_year,price_usd_per_kg,revenue_usd_per_year,conditioning_usd_per_year,net_revenue_usd_per_year,price_status
+naphtha,29032258.064516127,0.0,29032258.064516127,0.678976,0.0,0.0,0.0,unverified_legacy_assumption
+diesel,20967741.935483873,0.0,20967741.935483873,1.5196182821363966,0.0,0.0,0.0,observed_proxy
+wax,8064516.129032259,0.0,8064516.129032259,1.16699,0.0,0.0,0.0,unverified_legacy_assumption
+lpg,3225806.4516129033,0.0,3225806.4516129033,0.4340341609750249,0.0,0.0,0.0,observed_proxy
+oxygen,570838709.6774195,0.0,570838709.6774195,0.07426300000000001,0.0,0.0,0.0,unverified_legacy_assumption

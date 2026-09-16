@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "scenario": "current_base",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 11.75681411347789,
+      "max_matrix_violation": 5.2532413974404335e-09
+    },
+    {
+      "scenario": "capital_low_20pct",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 9.58913482505066,
+      "max_matrix_violation": 6.0390448197722435e-09
+    },
+    {
+      "scenario": "capital_high_20pct",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 13.924228348506421,
+      "max_matrix_violation": 2.8958311304450035e-09
+    },
+    {
+      "scenario": "dac_capital_half",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 10.784828285170587,
+      "max_matrix_violation": 1.3387762010097504e-09
+    },
+    {
+      "scenario": "dac_capital_double",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 13.317326613996462,
+      "max_matrix_violation": 4.118192009627819e-09
+    },
+    {
+      "scenario": "oxygen_100kt_offtake",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 11.71437811347789,
+      "max_matrix_violation": 5.2532413974404335e-09
+    },
+    {
+      "scenario": "no_coproduct_sales",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 12.318292526231938,
+      "max_matrix_violation": 5.2532413974404335e-09
+    },
+    {
+      "scenario": "legacy_ft_heat_kwh_basis",
+      "all_checks_passed": true,
+      "hours": 8784,
+      "lcof_usd_per_kg": 11.172823266289992,
+      "max_matrix_violation": 2.342858351767063e-09
+    }
+  ],
+  "regression_tests_passed": 16,
+  "live_price_feed_verified": true,
+  "notes": "Exported hourly mass, electricity, heating and cyclic ramp balances independently recomputed; cost totals and original run input/code hashes reconciled."
+}

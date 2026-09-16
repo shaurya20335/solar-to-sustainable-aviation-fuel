@@ -1,0 +1,12 @@
+component,capacity,unit
+solar,3720437.098537558,kWdc
+electrolyzer,1158503.0478663994,kW
+dac,96852.35037609372,kg_co2_per_hour
+rwgs,51163.71678007696,kg_co_per_hour
+ft,24363.674657179505,kg_syncrude_per_hour
+upgrading,15105.478287451293,kg_saf_per_hour
+h2_storage,123422.42533263442,kg_h2
+co2_storage,110457.78402149133,kg_co2
+battery_power,617593.9970625645,kW
+battery_energy,3939955.935218481,kWh
+heater,252204.59067903733,kWth

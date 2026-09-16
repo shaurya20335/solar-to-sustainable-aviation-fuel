@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-16",
+  "scenario": "capital_low_20pct",
+  "target_saf_kg_per_year": 100000000,
+  "finance": {
+    "project_years": 25,
+    "real_discount_rate": 0.08,
+    "cost_basis_year": 2024,
+    "annual_price_escalation_assumption": 0.03,
+    "note": "Historical capital/operating benchmarks are escalated to the as-of year at an ASSUMED 3% annually. Thereafter constant as-of-year real cash flows and an 8% real discount rate are used. These are screening estimates, not 2026 equipment quotations."
+  },
+  "solar": {
+    "dc_ac_ratio": 1.34,
+    "system_losses_fraction": 0.14,
+    "inverter_efficiency": 0.96,
+    "temperature_coefficient_per_c": -0.004,
+    "lifetime_output_factor": 0.95
+  },
+  "process": {
+    "electrolyzer_kwh_per_kg_h2": 55.0,
+    "h2_compression_kwh_per_kg": 3.0,
+    "dac_electricity_kwh_per_kg_co2": 0.4,
+    "co2_compression_kwh_per_kg": 0.1,
+    "dac_heat_kwh_per_kg_co2": 2.0,
+    "rwgs_electricity_kwh_per_kg_co": 0.3,
+    "rwgs_heat_kwh_per_kg_co": 1.5,
+    "rwgs_co2_per_co": 1.923076923076923,
+    "rwgs_h2_per_co": 0.07142857142857142,
+    "ft_co_per_syncrude": 2.1,
+    "ft_h2_per_syncrude": 0.28,
+    "ft_electricity_kwh_per_kg_syncrude": 1.23,
+    "ft_recoverable_heat_mj_per_kg_syncrude": 4.3,
+    "ft_heat_recovery_fraction": 0.8,
+    "upgrading_h2_per_kg_saf": 0.02,
+    "upgrading_electricity_kwh_per_kg_saf": 0.5,
+    "upgrading_heat_mj_per_kg_saf": 1.2,
+    "electric_heater_efficiency": 0.98,
+    "water_kg_per_kg_h2": 9.0,
+    "minimum_turndown_fraction": 0.25,
+    "ramp_fraction_per_hour": 0.1,
+    "battery_roundtrip_efficiency": 0.85,
+    "battery_min_hours": 2.0,
+    "battery_max_hours": 8.0,
+    "h2_storage_flow_fraction_per_hour": 0.25,
+    "co2_storage_flow_fraction_per_hour": 0.25,
+    "product_yields": {
+      "saf": 0.62,
+      "naphtha": 0.18,
+      "diesel": 0.13,
+      "wax": 0.05,
+      "lpg": 0.02
+    }
+  },
+  "capital": {
+    "solar": {
+      "usd_per_unit": 896.0,
+      "unit": "kWdc",
+      "fixed_opex_usd_per_unit_year": 20,
+      "source": "doe_pv_2025"
+    },
+    "electrolyzer": {
+      "usd_per_unit": 1520.0,
+      "unit": "kW",
+      "fixed_opex_fraction": 0.03,
+      "source": "doe_pem_installed"
+    },
+    "dac": {
+      "usd_per_unit": 7708.8,
+      "unit": "kg_co2_per_hour",
+      "fixed_opex_fraction": 0.04,
+      "source": "dac_unit_correction"
+    },
+    "rwgs": {
+      "usd_per_unit": 2800.0,
+      "unit": "kg_co_per_hour",
+      "fixed_opex_fraction": 0.04,
+      "source": "manuscript_costs"
+    },
+    "ft": {
+      "usd_per_unit": 4000.0,
+      "unit": "kg_syncrude_per_hour",
+      "fixed_opex_fraction": 0.04,
+      "source": "manuscript_costs"
+    },
+    "upgrading": {
+      "usd_per_unit": 1600.0,
+      "unit": "kg_saf_per_hour",
+      "fixed_opex_fraction": 0.04,
+      "source": "manuscript_costs"
+    },
+    "h2_storage": {
+      "usd_per_unit": 560.0,
+      "unit": "kg_h2",
+      "fixed_opex_fraction": 0.02,
+      "source": "legacy_unverified"
+    },
+    "co2_storage": {
+      "usd_per_unit": 64.0,
+      "unit": "kg_co2",
+      "fixed_opex_fraction": 0.02,
+      "source": "legacy_unverified"
+    },
+    "battery_power": {
+      "usd_per_unit": 96.0,
+      "unit": "kW",
+      "fixed_opex_fraction": 0.02,
+      "source": "battery_decomposition"
+    },
+    "battery_energy": {
+      "usd_per_unit": 206.0,
+      "unit": "kWh",
+      "fixed_opex_fraction": 0.02,
+      "source": "battery_decomposition"
+    },
+    "heater": {
+      "usd_per_unit": 80.0,
+      "unit": "kWth",
+      "fixed_opex_fraction": 0.02,
+      "source": "engineering_allowances"
+    }
+  },
+  "operating": {
+    "water_usd_per_kg": 0.0015,
+    "dac_sorbent_usd_per_tco2": 20.0,
+    "catalyst_usd_per_kg_saf": 0.05,
+    "stack_replacement_usd_per_kw": 450.0,
+    "stack_equivalent_full_load_life_hours": 40000,
+    "battery_replacement_year": 15,
+    "battery_replacement_fraction": 0.6,
+    "battery_throughput_usd_per_kwh": 0.001,
+    "process_contingency_fraction": 0.2
+  },
+  "offtake": {
+    "naphtha_sales_fraction": 0.9,
+    "diesel_sales_fraction": 0.9,
+    "wax_sales_fraction": 0.9,
+    "lpg_sales_fraction": 0.9,
+    "oxygen_sales_fraction": 0.0,
+    "oxygen_sales_cap_kg_per_year": 0,
+    "oxygen_conditioning_usd_per_kg_sold": 0.03,
+    "note": "Liquid coproducts use a 90% saleable-volume assumption. Oxygen earns no revenue without offtake; conditioning cost is applied if sales are enabled. Prices are plant-gate proxy assumptions; Gulf Coast delivery costs are not independently quoted."
+  },
+  "policy": {
+    "credit_usd_per_kg_saf": 0.0,
+    "note": "No automatic 45Q, 45V or 45Z credit. DAC-to-fuel is carbon utilization; captured mass is not permanent removal. Any externally verified, levelized policy support must be supplied as one net annual-equivalent amount per kg SAF without double counting."
+  },
+  "sources": {
+    "doe_pv_2025": {
+      "url": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-cost-benchmarks",
+      "period": "2025 Q1; 2024 USD",
+      "status": "published benchmark",
+      "note": "Utility PV-only MMP 1.12 USD/Wdc and O&M 20 USD/kWdc-year. PV+240 MWh ESS on 100 MWdc is 1.81 USD/Wdc."
+    },
+    "doe_pem_installed": {
+      "url": "https://www.energy.gov/sites/default/files/2024-05/hfto-mypp-2024.pdf",
+      "period": "2024 publication; underlying price basis assumed 2024",
+      "status": "historical project estimate",
+      "note": "Hub applicants' estimated installed PEM cost averages approximately 1900 USD/kW. Not the 2026 R&D target or a vendor offer."
+    },
+    "doe_pem_performance": {
+      "url": "https://www.energy.gov/cmei/fuels/technical-targets-proton-exchange-membrane-electrolysis",
+      "period": "2022 status",
+      "status": "historical technical status",
+      "note": "55 kWh/kg system efficiency, 450 USD/kW stack cost and 40000-hour life. Equivalent-full-load replacement reserve is an approximation; dynamic aging is not simulated."
+    },
+    "dac_unit_correction": {
+      "path": "Model_4_CarbonCredit/saf_optimization_model4.py",
+      "status": "unverified legacy basis, corrected units",
+      "note": "The comment states 1100 USD/(tonne CO2/year) of nameplate capture. Conversion: 1100*8760/1000=9636 USD/(kg/hour), not 126. Assumes 8760-hour nameplate, not actual utilization. A supplier quote is still needed."
+    },
+    "manuscript_costs": {
+      "path": "paper_latex.tex",
+      "status": "engineering assumption from latest manuscript",
+      "note": "3500/5000/2000 USD per kg/hour for RWGS/FT/upgrading. Dollar vintage assigned 2024. These conflict with old executable values; no supporting Aspen file or vendor quotes are present."
+    },
+    "legacy_unverified": {
+      "path": "Model_3_Byproducts/assumptions_used.json",
+      "status": "unverified engineering assumption",
+      "note": "Storage costs and most process inputs retained as explicit assumptions. RWGS H2 is rounded to stoichiometric 2/28 kg per kg CO. No claim of independent Aspen validation."
+    },
+    "battery_decomposition": {
+      "status": "derived estimate",
+      "source": "doe_pv_2025",
+      "note": "(1.81-1.12)*100e6/240e3 = 287.5 USD/kWh at four hours. Assume power cost 120 USD/kW; energy residual 257.5 USD/kWh. Linear extension to 2-8 hour duration is an engineering assumption."
+    },
+    "engineering_allowances": {
+      "status": "engineering assumptions requiring validation",
+      "note": "3% annual escalation; PV 14% losses, 0.95 lifetime derating; H2/CO2 compression; heater costs; 80% heat recovery; catalyst/sorbent costs; storage flow limits; 20% process contingency; 15-year 60% battery replacement. FT heat 4.3 MJ/kg and upgrading heat 1.2 MJ/kg follow Model 2 README (divide by 3.6). DAC/RWGS thermal duties follow executable kWh/kg basis; unit conflict retained in sensitivity."
+    },
+    "carbon_utilization": {
+      "url": "https://www.irs.gov/instructions/i8933",
+      "period": "December 2025 revision, checked 2026-09-16",
+      "status": "official eligibility guidance",
+      "note": "Utilization requires approved lifecycle analysis; no eligible displacement factor or project credit evidence is present."
+    },
+    "solar_timezone": {
+      "url": "https://pvlib-python.readthedocs.io/en/v0.12.0/_modules/pvlib/iotools/psm3.html",
+      "status": "reference implementation",
+      "note": "Timestamp localization uses metadata Time Zone, not Local Time Zone."
+    }
+  }
+}

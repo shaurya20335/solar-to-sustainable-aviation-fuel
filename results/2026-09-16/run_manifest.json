@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "as_of": "2026-09-16",
+  "created_at_utc": "20260916T061302669143Z",
+  "scope": "FULL HISTORICAL CALENDAR YEAR",
+  "scenarios": [
+    "current_base",
+    "capital_low_20pct",
+    "capital_high_20pct",
+    "dac_capital_half",
+    "dac_capital_double",
+    "oxygen_100kt_offtake",
+    "no_coproduct_sales",
+    "legacy_ft_heat_kwh_basis"
+  ]
+}

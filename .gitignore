@@ -1,0 +1,22 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Version the lossless .csv.gz archive, not a local extracted copy.
+data/weather/*.csv
+
+# New runs stay local until reviewed and explicitly included.
+results/*/
+!results/2026-09-16/
+!results/2026-09-16/**

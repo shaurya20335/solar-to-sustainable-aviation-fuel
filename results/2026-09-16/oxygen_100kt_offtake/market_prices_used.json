@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-16",
+  "retrieved_on": "2026-09-16",
+  "release_date": "2026-09-10",
+  "next_release_date": "2026-09-16",
+  "source_url": "https://www.eia.gov/dnav/pet/PET_PRI_SPT_S1_D.htm",
+  "note": "Latest observation visible on the EIA page when checked, NOT a September 16 trade. Fossil jet is a comparison benchmark, not an observed SAF sale price. Densities are conversion assumptions. Prices stay constant in real terms over the modeled project; this is not a price forecast.",
+  "prices": {
+    "jet": {
+      "value": 4.341,
+      "unit": "USD/US_gallon",
+      "observed_on": "2026-09-09",
+      "density_kg_per_litre": 0.8,
+      "status": "observed_fossil_benchmark",
+      "label": "US Gulf Coast kerosene-type jet fuel"
+    },
+    "diesel": {
+      "value": 4.832,
+      "unit": "USD/US_gallon",
+      "observed_on": "2026-09-09",
+      "density_kg_per_litre": 0.84,
+      "status": "observed_proxy",
+      "label": "US Gulf Coast ULSD; proxy for FT diesel"
+    },
+    "lpg": {
+      "value": 0.833,
+      "unit": "USD/US_gallon",
+      "observed_on": "2026-09-09",
+      "density_kg_per_litre": 0.507,
+      "status": "observed_proxy",
+      "label": "Mont Belvieu propane; proxy for mixed LPG"
+    },
+    "naphtha": {
+      "value": 0.64,
+      "unit": "USD/kg",
+      "price_basis_year": 2024,
+      "status": "unverified_legacy_assumption",
+      "label": "Legacy naphtha assumption; no current verified public quote"
+    },
+    "wax": {
+      "value": 1.1,
+      "unit": "USD/kg",
+      "price_basis_year": 2024,
+      "status": "unverified_legacy_assumption",
+      "label": "Legacy wax assumption; no current verified public quote"
+    },
+    "oxygen": {
+      "value": 0.07,
+      "unit": "USD/kg",
+      "price_basis_year": 2024,
+      "status": "unverified_legacy_assumption",
+      "label": "Legacy oxygen assumption; no offtake in base case"
+    }
+  }
+}

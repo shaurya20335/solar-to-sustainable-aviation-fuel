@@ -1,0 +1,678 @@
+{
+  "original_project_root": "/Users/shauryashukla/Desktop/Project_Dharik",
+  "path_basis": "All file paths are relative to the project root unless stated otherwise.",
+  "note": "Original fingerprints in completed optimization summaries describe the files at solve time. This map resolves their previous locations after project reorganization. Current hashes identify the renamed files after path/import/documentation updates; completed numerical results were not reoptimized. Weather is packaged as lossless gzip; compare the uncompressed SHA-256 with original run fingerprints.",
+  "files": [
+    {
+      "original_path": "2024-326317-one_axis.csv",
+      "current_path": "data/weather/arizona_nsrdb_2024_site_326317.csv.gz",
+      "original_sha256": "1e5c3c6149d3665aa57c43c971af6be9319dfae8c74ec0a3654aa11ad485e388",
+      "current_sha256": "8302ddd42ceecefa5afbe7c4ecf89f97ed7c98a76b21b3aa6e6e8846dfa26aec",
+      "content_unchanged": false,
+      "encoding": "gzip",
+      "uncompressed_sha256": "1e5c3c6149d3665aa57c43c971af6be9319dfae8c74ec0a3654aa11ad485e388",
+      "uncompressed_content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/model.py",
+      "current_path": "solar_saf/optimization.py",
+      "original_sha256": "915d6ee0460977b05823c7d08bd224a001fbee77008a33450c593607324d1afb",
+      "current_sha256": "915d6ee0460977b05823c7d08bd224a001fbee77008a33450c593607324d1afb",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/solar.py",
+      "current_path": "solar_saf/solar_resource.py",
+      "original_sha256": "8af31b360699aac68425e37c95ac1db9909572521dc4fef8739b46d0cb72639d",
+      "current_sha256": "98664a8748476041f8f72f3db14251551aae560541395b1246bae1e84a50a5da",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/run_model.py",
+      "current_path": "solar_saf/run_analysis.py",
+      "original_sha256": "b75c7de33f50752a419f7c158da56398a526a85446ed32425475e2efc30dec58",
+      "current_sha256": "452414ccf05ac9b6c56a57189ce81a939e819bd8eb215d3262ed1666bf414e71",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/plot_results.py",
+      "current_path": "solar_saf/plot_results.py",
+      "original_sha256": "bc0f8e3477d7df74c539106e5adf7b1791bee7b4b5692c2553b19ffa7b0fd520",
+      "current_sha256": "8369c2d794e5b3ce8c0a5c758d19a2631d5c32cf38a205b58ec61b7938844e36",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/build_report.py",
+      "current_path": "solar_saf/build_report.py",
+      "original_sha256": "d2a881f39c50540299410d524b3200d8e2969a5c2cf9ca10aacdd61b8c2e8f1b",
+      "current_sha256": "7ef422f1e6029949e72a378ea5b77bf7aa9cd1a0fa8dd1c00c511d5195506ef9",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/refresh_prices.py",
+      "current_path": "solar_saf/update_prices.py",
+      "original_sha256": "11e14c9c422bf6e08c8f076a47b85bd1f420ad4719f02455c1a82c1ba2c28945",
+      "current_sha256": "4013c872138ca1c12ad1dc5edaf45fd355f3771d16ce6390262fcdd719e7c7f1",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/test_model.py",
+      "current_path": "tests/test_optimization.py",
+      "original_sha256": "a0bb31897843686b3d3ea314daf00349d88e0dcded695b780a5a6731089bca52",
+      "current_sha256": "905a80ac24a10873c6efb65cee0208c97bd6af8117031fafea5a2266e6f3e5c5",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/test_prices.py",
+      "current_path": "tests/test_market_prices.py",
+      "original_sha256": "51d931d17487e17737202ad908889e1bf6320d3c6c146683f46e0049504ea1bb",
+      "current_sha256": "001404fdf6c6cdc469a22c76892855343525cffb9f7e7971cc633e6f0fb47868",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/assumptions.json",
+      "current_path": "config/model_assumptions.json",
+      "original_sha256": "a377eef7b9be80a4d701fc16a4203326ffb9c3d75ceba76ac13184b055b239ec",
+      "current_sha256": "a377eef7b9be80a4d701fc16a4203326ffb9c3d75ceba76ac13184b055b239ec",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/market_prices.json",
+      "current_path": "config/market_prices.json",
+      "original_sha256": "265beca726949541e3c9352eb9c99e420dbb69333b8cd2ad688e00fc1e55d558",
+      "current_sha256": "265beca726949541e3c9352eb9c99e420dbb69333b8cd2ad688e00fc1e55d558",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/capital_assumption_register.csv",
+      "current_path": "config/capital_cost_sources.csv",
+      "original_sha256": "cf22dd247378a0e5db049f8106aec76e811b6d3befc5c95c828057b92232278e",
+      "current_sha256": "cf22dd247378a0e5db049f8106aec76e811b6d3befc5c95c828057b92232278e",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/market_prices_verified.json",
+      "current_path": "data/prices/eia_spot_prices_2026-09-16.json",
+      "original_sha256": "dd057229f727b64b9c23237944bdbdd94a96d8dd25f1426a192ba8fff11eafb7",
+      "current_sha256": "dd057229f727b64b9c23237944bdbdd94a96d8dd25f1426a192ba8fff11eafb7",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/market_prices_verified.source.html",
+      "current_path": "data/prices/eia_spot_prices_2026-09-16.source.html",
+      "original_sha256": "43144214a3c83b9102e62937e957f3659422e6bc198f61cc87504824d38964d3",
+      "current_sha256": "43144214a3c83b9102e62937e957f3659422e6bc198f61cc87504824d38964d3",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/requirements.txt",
+      "current_path": "requirements.txt",
+      "original_sha256": "ba03138bf112fd464995c2d3d90fc3cc7d3c6df1e08750922e167d3c135cef80",
+      "current_sha256": "ba03138bf112fd464995c2d3d90fc3cc7d3c6df1e08750922e167d3c135cef80",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/README.md",
+      "current_path": "docs/model_guide.md",
+      "original_sha256": "77cda8face317e980a873d8f1fabd95ce459effd68782381fbfb38c4d70ac859",
+      "current_sha256": "4dc1085fb6638ec62bc500f4580b414d334a2b0a3aab79f566b66d8ad17aad79",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/FORMULATION.md",
+      "current_path": "docs/model_equations.md",
+      "original_sha256": "be1005c7d56a62f0f5a39e04fcf90a575c0a4e833ed410ef21fb19deb23278a5",
+      "current_sha256": "2cdafad920ef8e0dd58b04aadb024624eb2e2de6a1b53f0af5ff127294b358ca",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/AUDIT.md",
+      "current_path": "docs/model_audit.md",
+      "original_sha256": "ef883657436c36b67c4a7b33f96085c036f5ff5c6212e3d10bb36c6f472f0b40",
+      "current_sha256": "58e5f0a64a73534bc8b73a9edb0fd6d2caea13431657d95de7fb9971872f1e77",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/FINAL_REPORT.pdf",
+      "current_path": "results/2026-09-16/solar_saf_final_report.pdf",
+      "original_sha256": "d88ab8bda5ee124d998f0de7b5c5d9dd305facb664db59ef4524d269a2d1fc25",
+      "current_sha256": "9b06fb37d519552eab85aa8ca2ba44a8aaf51ea88790f3d1e9cbfaee240897bd",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/REPORT.md",
+      "current_path": "results/2026-09-16/capital_high_20pct/scenario_report.md",
+      "original_sha256": "691dca01661fb92158e24869aa942b79f858b468d6690f7f26894c577a893886",
+      "current_sha256": "733e520b4bd918da3bc7a57c3f03776d958bf9580d8c5a6ef06e7373c3531b23",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/assumptions_used.json",
+      "current_path": "results/2026-09-16/capital_high_20pct/model_assumptions_used.json",
+      "original_sha256": "d5ae878209ac6c955a244f8fa1ad7d39e336eb3a59a155f396783718adac3408",
+      "current_sha256": "d5ae878209ac6c955a244f8fa1ad7d39e336eb3a59a155f396783718adac3408",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/byproducts.csv",
+      "current_path": "results/2026-09-16/capital_high_20pct/coproduct_sales.csv",
+      "original_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "current_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/capacities.csv",
+      "current_path": "results/2026-09-16/capital_high_20pct/optimized_capacities.csv",
+      "original_sha256": "61648bf955bf0d1f1feb795e9105f53752a13f7610b933f5012785af3863807c",
+      "current_sha256": "61648bf955bf0d1f1feb795e9105f53752a13f7610b933f5012785af3863807c",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/capital_high_20pct/cost_breakdown.csv",
+      "original_sha256": "1e2cc3e6863cf1f90b2da2f733f114c145f9de0051427f3f537b7adf29e443ec",
+      "current_sha256": "1e2cc3e6863cf1f90b2da2f733f114c145f9de0051427f3f537b7adf29e443ec",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/market_prices_used.json",
+      "current_path": "results/2026-09-16/capital_high_20pct/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/capital_high_20pct/hourly_dispatch.csv",
+      "original_sha256": "4159642a0df8061a86a415babba1e03409c6dad7aaf6d079434d4c46429422c3",
+      "current_sha256": "4159642a0df8061a86a415babba1e03409c6dad7aaf6d079434d4c46429422c3",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_high_20pct/results.json",
+      "current_path": "results/2026-09-16/capital_high_20pct/optimization_summary.json",
+      "original_sha256": "3ee4c32467bedc528016418b584b5edc383918d7ff6a5fa12dc5a534f2be3641",
+      "current_sha256": "3ee4c32467bedc528016418b584b5edc383918d7ff6a5fa12dc5a534f2be3641",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/REPORT.md",
+      "current_path": "results/2026-09-16/capital_low_20pct/scenario_report.md",
+      "original_sha256": "1fd8e06275ccd159542515d96f3dcda95d0b29b7ee1d4c1d7abf7559256d4edd",
+      "current_sha256": "367922688a543fcbafbce85816d9ce5b61b74786155beea3c635239a9bc53d9a",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/assumptions_used.json",
+      "current_path": "results/2026-09-16/capital_low_20pct/model_assumptions_used.json",
+      "original_sha256": "58969891e7e9ff711a90eff35a1b76cfb3291c1d9c49f8dfa37f5aaa02a7c817",
+      "current_sha256": "58969891e7e9ff711a90eff35a1b76cfb3291c1d9c49f8dfa37f5aaa02a7c817",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/byproducts.csv",
+      "current_path": "results/2026-09-16/capital_low_20pct/coproduct_sales.csv",
+      "original_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "current_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/capacities.csv",
+      "current_path": "results/2026-09-16/capital_low_20pct/optimized_capacities.csv",
+      "original_sha256": "ea339164a9c91f98ac2de25d6a03cc155ab724dba0b36dfcf0ed86e6ff10229e",
+      "current_sha256": "ea339164a9c91f98ac2de25d6a03cc155ab724dba0b36dfcf0ed86e6ff10229e",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/capital_low_20pct/cost_breakdown.csv",
+      "original_sha256": "df5c8a9cc990c58bcad78a32484e385909b0c330bf003292b4202395902f611e",
+      "current_sha256": "df5c8a9cc990c58bcad78a32484e385909b0c330bf003292b4202395902f611e",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/market_prices_used.json",
+      "current_path": "results/2026-09-16/capital_low_20pct/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/capital_low_20pct/hourly_dispatch.csv",
+      "original_sha256": "75434d46d666cf149eadc2851319ede542e973a9a0fdd7ba38cb4010a5c1d802",
+      "current_sha256": "75434d46d666cf149eadc2851319ede542e973a9a0fdd7ba38cb4010a5c1d802",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/capital_low_20pct/results.json",
+      "current_path": "results/2026-09-16/capital_low_20pct/optimization_summary.json",
+      "original_sha256": "bfc3af40e95ac006390059703e5b6bef8f177e0c735300dbb9ec0fc12c51ed67",
+      "current_sha256": "bfc3af40e95ac006390059703e5b6bef8f177e0c735300dbb9ec0fc12c51ed67",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/REPORT.md",
+      "current_path": "results/2026-09-16/current_base/scenario_report.md",
+      "original_sha256": "0f6a7d604d277a278ee48ae8edee656944a926f761ee1a157d30977ef3b755b8",
+      "current_sha256": "5d7e2fcf1ef883fd3ed45993412e0c0f8f83784f3313a83f384398827c63df3b",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/assumptions_used.json",
+      "current_path": "results/2026-09-16/current_base/model_assumptions_used.json",
+      "original_sha256": "cf311854ce93e343c5ad702b8e38d1caa0c0e1a18a6958a24a686f7281d53ea6",
+      "current_sha256": "cf311854ce93e343c5ad702b8e38d1caa0c0e1a18a6958a24a686f7281d53ea6",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/byproducts.csv",
+      "current_path": "results/2026-09-16/current_base/coproduct_sales.csv",
+      "original_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "current_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/capacities.csv",
+      "current_path": "results/2026-09-16/current_base/optimized_capacities.csv",
+      "original_sha256": "e6c91f8f22c8812e719c75f2cbd3b38071e1a095f52e38a81a10c45cf9217641",
+      "current_sha256": "e6c91f8f22c8812e719c75f2cbd3b38071e1a095f52e38a81a10c45cf9217641",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/current_base/cost_breakdown.csv",
+      "original_sha256": "f8547e45105f4497ba5ab4f745b379c4434571fa90baf093b6cbd6738f1fa932",
+      "current_sha256": "f8547e45105f4497ba5ab4f745b379c4434571fa90baf093b6cbd6738f1fa932",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/market_prices_used.json",
+      "current_path": "results/2026-09-16/current_base/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/current_base/hourly_dispatch.csv",
+      "original_sha256": "5d786898e0f6d702a8e2a8c08ffff7112db591ed654d2ab2d107359f3d117871",
+      "current_sha256": "5d786898e0f6d702a8e2a8c08ffff7112db591ed654d2ab2d107359f3d117871",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/current_base/results.json",
+      "current_path": "results/2026-09-16/current_base/optimization_summary.json",
+      "original_sha256": "d7033530ed0058a770b1f159603ec5e7fa25e0ef5393127af73095bc1ac624e1",
+      "current_sha256": "d7033530ed0058a770b1f159603ec5e7fa25e0ef5393127af73095bc1ac624e1",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/REPORT.md",
+      "current_path": "results/2026-09-16/dac_capital_double/scenario_report.md",
+      "original_sha256": "7f76c2105f1302b1a63d14ec0021a404915dca8901f5edc48454514e4154cf44",
+      "current_sha256": "a4d9fc5f7d8d4fa3c8cb5e91d3ebe27719e08a075b251d3d87eb8a2171ecd612",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/assumptions_used.json",
+      "current_path": "results/2026-09-16/dac_capital_double/model_assumptions_used.json",
+      "original_sha256": "33cf49565f8236b1f689ec5677668e63193707d7e41fe85ec44e59b93cd1bf5a",
+      "current_sha256": "33cf49565f8236b1f689ec5677668e63193707d7e41fe85ec44e59b93cd1bf5a",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/byproducts.csv",
+      "current_path": "results/2026-09-16/dac_capital_double/coproduct_sales.csv",
+      "original_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "current_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/capacities.csv",
+      "current_path": "results/2026-09-16/dac_capital_double/optimized_capacities.csv",
+      "original_sha256": "296956462c322e809ba58a2fe8667aa01988debaee1aa879d489cc5bce2fa36e",
+      "current_sha256": "296956462c322e809ba58a2fe8667aa01988debaee1aa879d489cc5bce2fa36e",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/dac_capital_double/cost_breakdown.csv",
+      "original_sha256": "2d799e6d688cc830b44a0427b401055caf1cb0dd287dfa62d1764d05bea1d6cc",
+      "current_sha256": "2d799e6d688cc830b44a0427b401055caf1cb0dd287dfa62d1764d05bea1d6cc",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/market_prices_used.json",
+      "current_path": "results/2026-09-16/dac_capital_double/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/dac_capital_double/hourly_dispatch.csv",
+      "original_sha256": "1780317f43790e2eb57e75a7dba554e567dd6d68339797d26085092b6a7f485a",
+      "current_sha256": "1780317f43790e2eb57e75a7dba554e567dd6d68339797d26085092b6a7f485a",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_double/results.json",
+      "current_path": "results/2026-09-16/dac_capital_double/optimization_summary.json",
+      "original_sha256": "ad7b10606e18c04c6fbb6138b9d057feee38d20ac00f78ded4c238a3a664276a",
+      "current_sha256": "ad7b10606e18c04c6fbb6138b9d057feee38d20ac00f78ded4c238a3a664276a",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/REPORT.md",
+      "current_path": "results/2026-09-16/dac_capital_half/scenario_report.md",
+      "original_sha256": "aec6adc560b2bd99300f059f0bee83608c9bee94c76ee268bc754d47f9f5ba38",
+      "current_sha256": "500e1fe14c37d540bc631b180365e17b654e836399ce587ed29834d5a6547a14",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/assumptions_used.json",
+      "current_path": "results/2026-09-16/dac_capital_half/model_assumptions_used.json",
+      "original_sha256": "984c0f27ab83a4bead5d4bcb68e6fecce04d90930a1416350cd813cca6a6f1d0",
+      "current_sha256": "984c0f27ab83a4bead5d4bcb68e6fecce04d90930a1416350cd813cca6a6f1d0",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/byproducts.csv",
+      "current_path": "results/2026-09-16/dac_capital_half/coproduct_sales.csv",
+      "original_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "current_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/capacities.csv",
+      "current_path": "results/2026-09-16/dac_capital_half/optimized_capacities.csv",
+      "original_sha256": "358c8c470e7be46cad586fd9f47afd015c76db1c2c02ce40545e9119c512f65f",
+      "current_sha256": "358c8c470e7be46cad586fd9f47afd015c76db1c2c02ce40545e9119c512f65f",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/dac_capital_half/cost_breakdown.csv",
+      "original_sha256": "58c0c97a6e8b1693f5af4aca6ad86408c7c949618662a8666144fbe38267eeac",
+      "current_sha256": "58c0c97a6e8b1693f5af4aca6ad86408c7c949618662a8666144fbe38267eeac",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/market_prices_used.json",
+      "current_path": "results/2026-09-16/dac_capital_half/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/dac_capital_half/hourly_dispatch.csv",
+      "original_sha256": "135d796cb59e98b5a4fe4bb574286612f86b0ae86ecfe8fefcb3506c46397a67",
+      "current_sha256": "135d796cb59e98b5a4fe4bb574286612f86b0ae86ecfe8fefcb3506c46397a67",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/dac_capital_half/results.json",
+      "current_path": "results/2026-09-16/dac_capital_half/optimization_summary.json",
+      "original_sha256": "f2e2c693cb047cdfdfcc3f8e05aaa9bf5325e029b995b32f17bd258c985b19cf",
+      "current_sha256": "f2e2c693cb047cdfdfcc3f8e05aaa9bf5325e029b995b32f17bd258c985b19cf",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/01_cost_breakdown.pdf",
+      "current_path": "results/2026-09-16/figures/01_cost_breakdown.pdf",
+      "original_sha256": "43735ff6cae2e1326f1e03a75bfc383c44d9b6bedfe9f7561c3f57b3b9751322",
+      "current_sha256": "43735ff6cae2e1326f1e03a75bfc383c44d9b6bedfe9f7561c3f57b3b9751322",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/01_cost_breakdown.png",
+      "current_path": "results/2026-09-16/figures/01_cost_breakdown.png",
+      "original_sha256": "306b65587436b44594d7513a470f00520de6d7f642a253c2fb4c90b1fd44903b",
+      "current_sha256": "306b65587436b44594d7513a470f00520de6d7f642a253c2fb4c90b1fd44903b",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/02_sensitivity.pdf",
+      "current_path": "results/2026-09-16/figures/02_sensitivity.pdf",
+      "original_sha256": "89e97f0b5258df207f8aeade7c6479142081320d1a0dcd75f2c38e22588e2b42",
+      "current_sha256": "89e97f0b5258df207f8aeade7c6479142081320d1a0dcd75f2c38e22588e2b42",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/02_sensitivity.png",
+      "current_path": "results/2026-09-16/figures/02_sensitivity.png",
+      "original_sha256": "cacb2735ead714cd80902f32a57bf5e23b64bc064ee3db324611660739363110",
+      "current_sha256": "cacb2735ead714cd80902f32a57bf5e23b64bc064ee3db324611660739363110",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/03_hourly_dispatch.pdf",
+      "current_path": "results/2026-09-16/figures/03_hourly_dispatch.pdf",
+      "original_sha256": "6aae864391749a25b06d0dc4d66e51e1b2660dc4a32485c0c33606de4283b16f",
+      "current_sha256": "6aae864391749a25b06d0dc4d66e51e1b2660dc4a32485c0c33606de4283b16f",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/03_hourly_dispatch.png",
+      "current_path": "results/2026-09-16/figures/03_hourly_dispatch.png",
+      "original_sha256": "ee6f420b0575bcd8c988850d1420771f6afbc99600ec1628c8951ec99a7a743a",
+      "current_sha256": "ee6f420b0575bcd8c988850d1420771f6afbc99600ec1628c8951ec99a7a743a",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/04_monthly_production.pdf",
+      "current_path": "results/2026-09-16/figures/04_monthly_production.pdf",
+      "original_sha256": "120655e32bf32453bb6b7e52764c2ea71e1bddf388681ac924994e60e7aac184",
+      "current_sha256": "120655e32bf32453bb6b7e52764c2ea71e1bddf388681ac924994e60e7aac184",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/figures/04_monthly_production.png",
+      "current_path": "results/2026-09-16/figures/04_monthly_production.png",
+      "original_sha256": "71d971a663cfe5d5187bcaf80eaecfce3d1ed01f31d8f41738670f2bd337a9d2",
+      "current_sha256": "71d971a663cfe5d5187bcaf80eaecfce3d1ed01f31d8f41738670f2bd337a9d2",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/REPORT.md",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/scenario_report.md",
+      "original_sha256": "37b7d28b7442593e0b1812eeca04fec631aa540720c045cd44690700e4c9c4da",
+      "current_sha256": "7a435710966f4050ab49c372d5b6e363829fc52e87ffdf6089e3ed086c89561b",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/assumptions_used.json",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/model_assumptions_used.json",
+      "original_sha256": "a64ee9318408ab089b22497e9295a432bf542f1fb5d34ec1a0205b69617742eb",
+      "current_sha256": "a64ee9318408ab089b22497e9295a432bf542f1fb5d34ec1a0205b69617742eb",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/byproducts.csv",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/coproduct_sales.csv",
+      "original_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "current_sha256": "a5e207cb9e4d1eb5a164f040d4a1dd8a2211acc70b5b6affbb9c0fbe50ab2892",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/capacities.csv",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/optimized_capacities.csv",
+      "original_sha256": "7aeddc708b8c146cefad58430b3bbed85113f87db14fc38035d771b2754147dd",
+      "current_sha256": "7aeddc708b8c146cefad58430b3bbed85113f87db14fc38035d771b2754147dd",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/cost_breakdown.csv",
+      "original_sha256": "30a2697037ecc7972ac71e18e95c181f25b635529de9d81aa4f0a3000a5764f5",
+      "current_sha256": "30a2697037ecc7972ac71e18e95c181f25b635529de9d81aa4f0a3000a5764f5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/market_prices_used.json",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/hourly_dispatch.csv",
+      "original_sha256": "88a87f103befb934ee2f6a69b9e412f540fce060d7a89ed5454a775580ce8cae",
+      "current_sha256": "88a87f103befb934ee2f6a69b9e412f540fce060d7a89ed5454a775580ce8cae",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/legacy_ft_heat_kwh_basis/results.json",
+      "current_path": "results/2026-09-16/legacy_ft_heat_kwh_basis/optimization_summary.json",
+      "original_sha256": "d870169554f282599809eca51d9c60a62336de138f168881418108afdd853782",
+      "current_sha256": "d870169554f282599809eca51d9c60a62336de138f168881418108afdd853782",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/REPORT.md",
+      "current_path": "results/2026-09-16/no_coproduct_sales/scenario_report.md",
+      "original_sha256": "884f5d58d6d2c9dad9437bc864a68b12dad6761da6a4e286d671ee24d15cc8b4",
+      "current_sha256": "7fedbc2444b2bbb3f9a88c81f412dfe2fb53f4db41ab58de77db411132ced8fd",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/assumptions_used.json",
+      "current_path": "results/2026-09-16/no_coproduct_sales/model_assumptions_used.json",
+      "original_sha256": "57395a035f0a0cc0c4ec172f971dbd3be0ac4220db54640e6fa66db9052cc532",
+      "current_sha256": "57395a035f0a0cc0c4ec172f971dbd3be0ac4220db54640e6fa66db9052cc532",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/byproducts.csv",
+      "current_path": "results/2026-09-16/no_coproduct_sales/coproduct_sales.csv",
+      "original_sha256": "0f7a7315186ba91afe9519523aff7206f23d67d3f2a45e1d1ddd96da27983297",
+      "current_sha256": "0f7a7315186ba91afe9519523aff7206f23d67d3f2a45e1d1ddd96da27983297",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/capacities.csv",
+      "current_path": "results/2026-09-16/no_coproduct_sales/optimized_capacities.csv",
+      "original_sha256": "e6c91f8f22c8812e719c75f2cbd3b38071e1a095f52e38a81a10c45cf9217641",
+      "current_sha256": "e6c91f8f22c8812e719c75f2cbd3b38071e1a095f52e38a81a10c45cf9217641",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/no_coproduct_sales/cost_breakdown.csv",
+      "original_sha256": "63e727e53be3abf0b727c935501ee70930ee5b8dd1c870a7a24b6b0a735acd3b",
+      "current_sha256": "63e727e53be3abf0b727c935501ee70930ee5b8dd1c870a7a24b6b0a735acd3b",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/market_prices_used.json",
+      "current_path": "results/2026-09-16/no_coproduct_sales/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/no_coproduct_sales/hourly_dispatch.csv",
+      "original_sha256": "5d786898e0f6d702a8e2a8c08ffff7112db591ed654d2ab2d107359f3d117871",
+      "current_sha256": "5d786898e0f6d702a8e2a8c08ffff7112db591ed654d2ab2d107359f3d117871",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/no_coproduct_sales/results.json",
+      "current_path": "results/2026-09-16/no_coproduct_sales/optimization_summary.json",
+      "original_sha256": "ed968479c1e54e133cb2cbaa125a25c3aa190d4dd1cf0f1ef16eac02e8dfae5f",
+      "current_sha256": "ed968479c1e54e133cb2cbaa125a25c3aa190d4dd1cf0f1ef16eac02e8dfae5f",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/REPORT.md",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/scenario_report.md",
+      "original_sha256": "099c69c7ef8e450de47f1c4189005f9b1b95e8671c030c52b58efb5f08de3a5e",
+      "current_sha256": "e6f9b285f912083fec753454a012b012ce53d9ca7d6dc5e18a8084ef964ae8c6",
+      "content_unchanged": false
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/assumptions_used.json",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/model_assumptions_used.json",
+      "original_sha256": "068210055d72ca196dd7bedcd0dbdb016ac44c13626e9c318fc5513f9fa8e04c",
+      "current_sha256": "068210055d72ca196dd7bedcd0dbdb016ac44c13626e9c318fc5513f9fa8e04c",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/byproducts.csv",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/coproduct_sales.csv",
+      "original_sha256": "1fdd7981fe8f0a40dcb71e233c8ea055a90afa9ec682258fdb2445b2e4983c66",
+      "current_sha256": "1fdd7981fe8f0a40dcb71e233c8ea055a90afa9ec682258fdb2445b2e4983c66",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/capacities.csv",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/optimized_capacities.csv",
+      "original_sha256": "e6c91f8f22c8812e719c75f2cbd3b38071e1a095f52e38a81a10c45cf9217641",
+      "current_sha256": "e6c91f8f22c8812e719c75f2cbd3b38071e1a095f52e38a81a10c45cf9217641",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/cost_breakdown.csv",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/cost_breakdown.csv",
+      "original_sha256": "bb5c191c4effd2c8c8b38ada482f3457358adeb2a14d545e2289ac910492e024",
+      "current_sha256": "bb5c191c4effd2c8c8b38ada482f3457358adeb2a14d545e2289ac910492e024",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/market_prices_used.json",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/market_prices_used.json",
+      "original_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "current_sha256": "a60cfbe5c319c5f379aa10b86818dee7dda38cc298f63dd2b4c50d84f24e4db5",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/operations_timeseries.csv",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/hourly_dispatch.csv",
+      "original_sha256": "5d786898e0f6d702a8e2a8c08ffff7112db591ed654d2ab2d107359f3d117871",
+      "current_sha256": "5d786898e0f6d702a8e2a8c08ffff7112db591ed654d2ab2d107359f3d117871",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/oxygen_100kt_offtake/results.json",
+      "current_path": "results/2026-09-16/oxygen_100kt_offtake/optimization_summary.json",
+      "original_sha256": "e3bc09b067012a014e87b1d16194a658e2dc5baf8a190d757f3fae6211c30ace",
+      "current_sha256": "e3bc09b067012a014e87b1d16194a658e2dc5baf8a190d757f3fae6211c30ace",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/run_manifest.json",
+      "current_path": "results/2026-09-16/run_manifest.json",
+      "original_sha256": "00fcc9ae878fe69bf9cbab6014dfa9580e42ce2b1bb3853cc0fd51debefd977a",
+      "current_sha256": "00fcc9ae878fe69bf9cbab6014dfa9580e42ce2b1bb3853cc0fd51debefd977a",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/scenario_comparison.csv",
+      "current_path": "results/2026-09-16/scenario_comparison.csv",
+      "original_sha256": "24ebcf56756fe2e8da06bf41511e0bbcba4b53a1a36dcf34f26cd9fd041c58aa",
+      "current_sha256": "24ebcf56756fe2e8da06bf41511e0bbcba4b53a1a36dcf34f26cd9fd041c58aa",
+      "content_unchanged": true
+    },
+    {
+      "original_path": "Model_5_Final/results/2026-09-16/verification.json",
+      "current_path": "results/2026-09-16/validation_summary.json",
+      "original_sha256": "d2ec45c752d4c1d9ad3d7393f5a8fd19c0c0ac9e6d99cd8a8192061295f41151",
+      "current_sha256": "d2ec45c752d4c1d9ad3d7393f5a8fd19c0c0ac9e6d99cd8a8192061295f41151",
+      "content_unchanged": true
+    }
+  ],
+  "verification": {
+    "regression_tests_passed": 16,
+    "end_to_end_short_run_hours": 168,
+    "renamed_exports_plots_pdf_and_offline_price_update_passed": true,
+    "completed_full_year_scenarios_preserved": 8,
+    "original_run_fingerprints_resolve_through_this_map": true,
+    "local_markdown_links_checked": true,
+    "newly_reoptimized_full_year_cases": 0
+  },
+  "project_folder_name": "Solar to Sustainable Aviation Fuel"
+}
