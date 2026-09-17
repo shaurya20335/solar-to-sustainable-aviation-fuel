@@ -110,3 +110,5 @@ All eight saved scenarios support the final report, including `legacy_ft_heat_kw
 - Solver-independent feasibility checks and regression tests for physical conservation, dates and units.
 
 The optimum is conditional on the linear model and its assumptions. Remaining gaps include supplier costs, reconciled Aspen heat/mass balances, multiple weather years, real offtake and plant availability. See the [audit](model_audit.md).
+
+For differences between regression tests, short runs and the archived full-year analysis, see [Reproducibility](reproducibility.md). Upstream citations are collected in [References](references.md).

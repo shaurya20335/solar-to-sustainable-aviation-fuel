@@ -1,0 +1,4 @@
+# Identify reference data and generated outputs without changing their bytes.
+data/** linguist-vendored
+results/** linguist-generated
+*.gz binary

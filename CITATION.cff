@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, cite this repository and identify the commit and analysis date used."
+type: software
+title: "Solar to Sustainable Aviation Fuel"
+authors:
+  - family-names: "Shukla"
+    given-names: "Shaurya"
+    affiliation: "NYU Tandon School of Engineering"
+repository-code: "https://github.com/shaurya20335/solar-to-sustainable-aviation-fuel"
+url: "https://github.com/shaurya20335/solar-to-sustainable-aviation-fuel"
+date-released: "2026-09-16"
+license: MIT
+abstract: >-
+  Educational techno-economic optimization of a solar-powered sustainable
+  aviation fuel facility in Arizona. Developed as a Fall 2025 Introduction
+  to Sustainable Energy Systems course project, with a September 2026
+  analysis update using 2024 hourly weather. Includes model equations,
+  dated assumptions, sensitivity results and reproducibility instructions.
+keywords:
+  - sustainable aviation fuel
+  - solar energy
+  - techno-economic analysis
+  - linear optimization
+  - course project

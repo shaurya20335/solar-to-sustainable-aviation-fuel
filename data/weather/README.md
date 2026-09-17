@@ -14,3 +14,5 @@ The model uses metadata `Time Zone=0` (UTC) for timestamps; site local offset `-
 The weather file was supplied with the course project. No new weather download or substitution was made during GitHub preparation. Compression uses a fixed gzip timestamp for reproducible packaging. An uncompressed copy may remain locally but is ignored by Git.
 
 Optional extraction: run `gzip -dk data/weather/arizona_nsrdb_2024_site_326317.csv.gz` from the repository root when the CSV does not already exist. The model also accepts a plain CSV via `--solar path/to/weather.csv`.
+
+Upstream data provider: [National Solar Radiation Database](https://nsrdb.nlr.gov/). The [project bibliography](../../docs/references.md) includes the provider-recommended data citation. This dataset retains its original applicable terms and is not relicensed by the project software license.

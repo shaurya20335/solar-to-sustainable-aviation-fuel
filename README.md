@@ -1,5 +1,7 @@
 # Solar to Sustainable Aviation Fuel
 
+[![Model checks](https://github.com/shaurya20335/solar-to-sustainable-aviation-fuel/actions/workflows/tests.yml/badge.svg)](https://github.com/shaurya20335/solar-to-sustainable-aviation-fuel/actions/workflows/tests.yml)
+
 **Techno-economic optimization of a solar-powered sustainable aviation fuel facility in Arizona.**
 
 | Course | Details |
@@ -22,7 +24,8 @@ This course project studies how solar generation, process equipment and storage 
 - [Sensitivity comparison](results/2026-09-16/scenario_comparison.csv)
 - [Model equations](docs/model_equations.md) and [assumptions audit](docs/model_audit.md)
 - [Detailed model guide](docs/model_guide.md)
-- [Professional Git and GitHub workflow](docs/github_workflow.md)
+- [Reproducibility and archive interpretation](docs/reproducibility.md)
+- [References and source attribution](docs/references.md)
 
 ## Process and method
 
@@ -37,9 +40,12 @@ flowchart LR
     RWGS --> FT[Fischer-Tropsch synthesis]
     H2 --> FT
     FT --> UP[Upgrading]
+    H2 --> UP
     UP --> SAF[Sustainable aviation fuel]
     UP --> CP[Coproducts]
 ```
+
+The diagram is a conceptual process overview. Storage, heating and auxiliary loads are defined in the model equations.
 
 The model co-optimizes installed capacity and dispatch across **8,784 hourly intervals**, covering the complete 2024 leap year. Batteries and hydrogen/CO2 storage connect operation across hours. Electricity and material balances, paid auxiliary heating, cyclic inventories, process turndown, ramp limits and the annual fuel target constrain the solution. SciPy's HiGHS solver solves the linear program; no commercial solver license is required.
 
@@ -113,6 +119,9 @@ The test suite checks conservation, cyclic storage, heating, equipment and opera
 solar-to-sustainable-aviation-fuel/
 ├── README.md
 ├── requirements.txt
+├── CITATION.cff                # Machine-readable software citation
+├── LICENSE                     # MIT license for original code/documentation
+├── CONTRIBUTING.md             # Review and contribution guidance
 ├── .github/workflows/tests.yml  # Automated regression and smoke checks
 ├── solar_saf/                  # Model, solar processing and report tools
 ├── config/                     # Assumptions, prices and capital-cost sources
@@ -131,3 +140,17 @@ Engineering and economic assumptions are in [config/model_assumptions.json](conf
 Each saved scenario includes the inputs used, hourly dispatch, capacities, costs, coproduct sales, solver information and validation results. Original run paths and hashes remain historical provenance. The [file relocation record](docs/file_relocations.json) maps those paths to the current layout and records the compressed weather archive's uncompressed checksum. Repository packaging does not change the saved numerical results.
 
 For updates, use a focused branch, review the staged diff, run the checks and write a commit message explaining the change. The [GitHub workflow guide](docs/github_workflow.md) gives commands and examples. Local environments, credentials, caches and unreviewed run outputs are excluded from version control.
+
+## Citation
+
+Use [CITATION.cff](CITATION.cff) or GitHub's **Cite this repository** control. Identify the commit and analysis date when citing numerical results. A general citation is:
+
+> Shukla, S. (2026). *Solar to Sustainable Aviation Fuel* [Computer software]. https://github.com/shaurya20335/solar-to-sustainable-aviation-fuel
+
+Cite the relevant upstream software, datasets and benchmarks as well; see [References](docs/references.md). The repository is a course-project software artifact, not a peer-reviewed article.
+
+## Contributing and license
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for reporting issues and proposing changes, with command examples in the [Git workflow guide](docs/github_workflow.md).
+
+Original project code and documentation are available under the [MIT License](LICENSE). Third-party data, source snapshots and dependencies retain their own applicable terms, as described in [source attribution](docs/references.md).
